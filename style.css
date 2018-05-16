@@ -6,14 +6,17 @@ body{
     display: flex;
     justify-content: center;
     background-color: red;
+    color: #FFF;
 }
 .row2{
     display: flex;
     flex-wrap: wrap;
+    color: #FFF;
 }
 .row3{
     display: flex;
     justify-content: center;
+    color: #FFF;
 }
 .column1{
     flex: 25%;
