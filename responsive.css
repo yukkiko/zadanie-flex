@@ -1,0 +1,36 @@
+@media all  and (min-width:768px) and (max-width:992px){
+    .column1{
+        order: 1;
+        max-width: 100%;
+        flex: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .column2{
+        flex: 75%;
+        max-width: 75%;
+    }
+}
+@media all and (max-width:768px){
+    .column1{
+        max-width: 100%;
+        flex: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        order: 2;
+    }
+     .column2{
+        order: 1;
+         max-width: 100%;
+         flex: 100%;
+         justify-content: center;
+         text-align: center;
+    }
+    
+    .column3{
+        order: 3;
+        max-width: 100%;
+        flex: 100%;
+        justify-content: center;
+    }
+}
